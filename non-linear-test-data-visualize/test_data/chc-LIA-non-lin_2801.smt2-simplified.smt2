@@ -1,0 +1,12 @@
+(set-logic HORN)
+(set-info :source |
+    Benchmark: C_VC
+    Output by Princess (http://www.philipp.ruemmer.org/princess.shtml)
+|)
+(set-info :status unknown)
+(declare-fun addition@.split (Int Int Int) Bool)
+(assert (forall ((var0 Int) (var1 Int) (var2 Int) (var3 Bool) (var4 Bool) (var5 Bool) (var6 Bool) (var7 Bool) (var8 Bool) (var9 Bool) (var10 Bool) (var11 Bool) (var12 Bool) (var13 Bool) (var14 Bool) (var15 Bool) (var16 Bool) (var17 Bool)) (or (not (and (and (and (and (and (and (and (and (and (and (and (and (and (and (and (and (not var17) (not var16)) (not var15)) (not var14)) (not var13)) (not var12)) (not var11)) (not var10)) (not var9)) (not var8)) (not var7)) (not var6)) (not var5)) (not var4)) (not var3)) (= var2 0)) (= var1 var0))) (addition@.split var0 var1 var2))))
+(assert (forall ((var0 Bool) (var1 Bool) (var2 Bool) (var3 Bool) (var4 Bool) (var5 Bool) (var6 Bool) (var7 Bool) (var8 Bool) (var9 Bool) (var10 Bool) (var11 Bool) (var12 Bool) (var13 Bool) (var14 Int) (var15 Int) (var16 Int)) (or (not (and (addition@.split var16 (+ var15 1) (+ var14 (- 1))) (and (and (and (and (and (and (and (and (and (and (not var13) (not var12)) (not var11)) (not var10)) (not var9)) (not var8)) (not var7)) (not var6)) (not var5)) (<= 0 (+ var14 (- 1)))) (and (not (or (or var4 var3) var2)) (and (not var1) (not var0)))))) (addition@.split var16 var15 var14))))
+(assert (forall ((var0 Bool) (var1 Bool) (var2 Bool) (var3 Bool) (var4 Bool) (var5 Bool) (var6 Bool) (var7 Bool) (var8 Bool) (var9 Bool) (var10 Bool) (var11 Bool) (var12 Bool) (var13 Bool) (var14 Int) (var15 Int) (var16 Int)) (or (not (and (addition@.split var16 (+ var15 (- 1)) (+ var14 1)) (and (and (and (and (and (and (and (and (and (and (not var13) (not var12)) (not var11)) (not var10)) (not var9)) (not var8)) (not var7)) (not var6)) (not var5)) (<= 0 (+ (* (- 1) var14) (- 1)))) (and (and (not var4) (not var3)) (not (or (or var2 var1) var0)))))) (addition@.split var16 var15 var14))))
+(assert (forall ((var0 Bool) (var1 Bool) (var2 Bool) (var3 Bool) (var4 Bool) (var5 Bool) (var6 Bool) (var7 Int) (var8 Int) (var9 Int) (var10 Int)) (not (and (addition@.split var10 var9 var8) (and (and (and (= (+ (+ var9 (* (- 1) var7)) var8) 0) (and (and (and (and (and (not var6) (not (= var7 var10))) (not var5)) (not var4)) (not var3)) (not var2))) (and (and (and (<= 0 (+ (+ (* (- 1) var7) var8) 1073741823)) (<= 0 (+ var7 (* (- 1) var8)))) (<= 0 (+ (* (- 1) var8) 1073741823))) (<= 0 var8))) (and (not var1) (not var0)))))))
+(check-sat)

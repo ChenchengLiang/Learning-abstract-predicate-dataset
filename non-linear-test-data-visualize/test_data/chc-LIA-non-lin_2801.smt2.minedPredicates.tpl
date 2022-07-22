@@ -1,0 +1,6 @@
+(templates addition@.split ((x0 Int) (x1 Int) (x2 Int))
+  (term (+ x2 (* (- 1) x0)) 5)
+  (term x1 8)
+  (term x0 100)
+  (term x2 100)
+)

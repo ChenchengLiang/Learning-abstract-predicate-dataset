@@ -1,0 +1,5 @@
+(templates main_1_1 ((x0 Int) (x1 Int) (x2 Int) (x3 Int))
+  (inequality-term (+ x1 (* (- 1) x0)) 1)
+  (inequality-term (+ x0 (* (- 1) x2)) 1)
+  (inequality-term (+ x3 (* (- 1) x0)) 1)
+)

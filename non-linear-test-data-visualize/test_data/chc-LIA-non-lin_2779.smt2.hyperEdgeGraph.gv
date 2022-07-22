@@ -1,0 +1,117 @@
+digraph dag { 
+"predicateArgument0" -> "CONTROLN_0" [label="arg"]
+"predicateArgument1" -> "CONTROLN_0" [label="arg"]
+"CFHE_0" [label="guarded CFHE Clause 0" nodeName="CFHE_0" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_0" [label="guarded DFHE Clause 0" nodeName="DFHE_0" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_1" [label="guarded DFHE Clause 0" nodeName="DFHE_1" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_7" [label="guard"]
+"Initial" -> "CFHE_0" [label="CFHE"]
+"guard_7" -> "CFHE_0" [label="CFHE"]
+"CFHE_0" -> "CONTROLN_0" [label="CFHE"]
+"0_5" -> "DFHE_0" [label="DFHE"]
+"guard_7" -> "DFHE_0" [label="DFHE"]
+"DFHE_0" -> "predicateArgument0" [label="DFHE"]
+"0_5" -> "DFHE_1" [label="DFHE"]
+"guard_7" -> "DFHE_1" [label="DFHE"]
+"DFHE_1" -> "predicateArgument1" [label="DFHE"]
+"CFHE_1" [label="guarded CFHE Clause 1" nodeName="CFHE_1" class=controlFlowHyperEdge shape="diamond"];
+"predicateArgument2" -> "CONTROLN_1" [label="arg"]
+"predicateArgument3" -> "CONTROLN_1" [label="arg"]
+"DFHE_2" [label="guarded DFHE Clause 1" nodeName="DFHE_2" class=dataFlowHyperEdge shape="diamond"];
+"1_12" -> "+_11" [label="AST_1"]
+"predicateArgument2" -> "+_11" [label="AST_2"]
+"DFHE_3" [label="guarded DFHE Clause 1" nodeName="DFHE_3" class=dataFlowHyperEdge shape="diamond"];
+"1_12" -> "+_13" [label="AST_1"]
+"predicateArgument3" -> "+_13" [label="AST_2"]
+"predicateArgument0" -> "=_14" [label="AST_1"]
+"0_5" -> "=_14" [label="AST_2"]
+"=_14" -> "!_15" [label="AST_1"]
+"!_15" -> "guard_16" [label="guard"]
+"CONTROLN_1" -> "CFHE_1" [label="CFHE"]
+"guard_16" -> "CFHE_1" [label="CFHE"]
+"CFHE_1" -> "CONTROLN_0" [label="CFHE"]
+"+_11" -> "DFHE_2" [label="DFHE"]
+"guard_16" -> "DFHE_2" [label="DFHE"]
+"DFHE_2" -> "predicateArgument0" [label="DFHE"]
+"+_13" -> "DFHE_3" [label="DFHE"]
+"guard_16" -> "DFHE_3" [label="DFHE"]
+"DFHE_3" -> "predicateArgument1" [label="DFHE"]
+"CFHE_2" [label="guarded CFHE Clause 2" nodeName="CFHE_2" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_4" [label="guarded DFHE Clause 2" nodeName="DFHE_4" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_5" [label="guarded DFHE Clause 2" nodeName="DFHE_5" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_17" [label="guard"]
+"CONTROLN_0" -> "CFHE_2" [label="CFHE"]
+"guard_17" -> "CFHE_2" [label="CFHE"]
+"CFHE_2" -> "CONTROLN_1" [label="CFHE"]
+"predicateArgument0" -> "DFHE_4" [label="DFHE"]
+"guard_17" -> "DFHE_4" [label="DFHE"]
+"DFHE_4" -> "predicateArgument2" [label="DFHE"]
+"predicateArgument1" -> "DFHE_5" [label="DFHE"]
+"guard_17" -> "DFHE_5" [label="DFHE"]
+"DFHE_5" -> "predicateArgument3" [label="DFHE"]
+"CFHE_3" [label="guarded CFHE Clause 3" nodeName="CFHE_3" class=controlFlowHyperEdge shape="diamond"];
+"predicateArgument1" -> "=_19" [label="AST_1"]
+"15_20" -> "=_19" [label="AST_2"]
+"=_19" -> "!_21" [label="AST_1"]
+"predicateArgument0" -> "=_22" [label="AST_1"]
+"15_20" -> "=_22" [label="AST_2"]
+"!_21" -> "guard_23" [label="guard"]
+"=_22" -> "guard_23" [label="guard"]
+"CONTROLN_0" -> "CFHE_3" [label="CFHE"]
+"guard_23" -> "CFHE_3" [label="CFHE"]
+"CFHE_3" -> "FALSE" [label="CFHE"]
+"CONTROLN_0" -> "CONTROLN_0" [label="t"]
+"CONTROLN_1" -> "CONTROLN_1" [label="t"]
+"predicateArgument1" -> "-_24" [label="AST_2"]
+"predicateArgument0" -> "+_25" [label="AST_1"]
+"-_24" -> "+_25" [label="AST_2"]
+"predicateArgument0" -> "+_26" [label="AST_1"]
+"predicateArgument1" -> "+_26" [label="AST_2"]
+"predicateArgument0" -> "-_27" [label="AST_1"]
+"predicateArgument1" -> "+_28" [label="AST_1"]
+"-_27" -> "+_28" [label="AST_2"]
+"-_27" -> "+_29" [label="AST_1"]
+"-_24" -> "+_29" [label="AST_2"]
+"CONTROLN_0" -> "predicateArgument0" [label="EqTerm (tpl)"]
+"CONTROLN_0" -> "predicateArgument1" [label="EqTerm (tpl)"]
+"CONTROLN_0" -> "+_25" [label="EqTerm (tpl)"]
+"CONTROLN_0" -> "+_26" [label="EqTerm (tpl)"]
+"CONTROLN_0" -> "predicateArgument0" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "predicateArgument1" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "-_27" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "-_24" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "+_25" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "+_28" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "+_26" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "+_29" [label="InEqTerm (tpl)"]
+"predicateArgument0"[  color=black fillcolor=green style=filled shape=record label="{{ARG_0:3|0|0}|{ARG_0:3|0|0}}"];
+"+_13" [label="+:13" nodeName="+_13" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicateArgument3" [label="ARG_1:10" nodeName="predicateArgument3" class=predicateArgument shape="ellipse" color=black fillcolor=white style=filled];
+"Initial" [label="Initial:1" nodeName="Initial" class=Initial shape="component" color=black fillcolor=white style=filled];
+"true_6" [label="true:6" nodeName="true_6" class=constant shape="circle" color=black fillcolor=white style=filled];
+"=_19" [label="=:19" nodeName="=_19" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_26"[  color=black fillcolor=green style=filled shape=record label="{{+:26|0|0}|{+:26|0|0}}"];
+"+_28"[  color=black fillcolor=green style=filled shape=record label="{{+:28|0}|{+:28|0}}"];
+"0_5" [label="0:5" nodeName="0_5" class=constant shape="circle" color=black fillcolor=white style=filled];
+"1_12" [label="1:12" nodeName="1_12" class=constant shape="circle" color=black fillcolor=white style=filled];
+"dummy" [label="dummy:0" nodeName="dummy" class=dummy shape="component" color=black fillcolor=white style=filled];
+"-_24"[  color=black fillcolor=green style=filled shape=record label="{{-:24|0}|{-:24|0}}"];
+"FALSE" [label="FALSE:18" nodeName="FALSE" class=FALSE shape="component" color=black fillcolor=white style=filled];
+"+_29"[  color=black fillcolor=green style=filled shape=record label="{{+:29|0}|{+:29|0}}"];
+"=_22" [label="=:22" nodeName="=_22" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicateArgument2" [label="ARG_0:9" nodeName="predicateArgument2" class=predicateArgument shape="ellipse" color=black fillcolor=white style=filled];
+"CONTROLN_0" [label="id_3:2" nodeName="CONTROLN_0" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"+_11" [label="+:11" nodeName="+_11" class=operator shape="square" color=black fillcolor=white style=filled];
+"guard_7" [label="G:7" nodeName="guard_7" class=guard shape="square" color=black fillcolor=white style=filled];
+"guard_23" [label="G:23" nodeName="guard_23" class=guard shape="square" color=black fillcolor=white style=filled];
+"-_27"[  color=black fillcolor=green style=filled shape=record label="{{-:27|0}|{-:27|0}}"];
+"guard_16" [label="G:16" nodeName="guard_16" class=guard shape="square" color=black fillcolor=white style=filled];
+"predicateArgument1"[  color=black fillcolor=green style=filled shape=record label="{{ARG_1:4|0|0}|{ARG_1:4|0|0}}"];
+"CONTROLN_1" [label="id_3_1_1:8" nodeName="CONTROLN_1" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"15_20" [label="15:20" nodeName="15_20" class=constant shape="circle" color=black fillcolor=white style=filled];
+"!_15" [label="!:15" nodeName="!_15" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_25"[  color=black fillcolor=green style=filled shape=record label="{{+:25|1|1}|{+:25|1|1}}"];
+"guard_17" [label="G:17" nodeName="guard_17" class=guard shape="square" color=black fillcolor=white style=filled];
+"=_14" [label="=:14" nodeName="=_14" class=operator shape="square" color=black fillcolor=white style=filled];
+"!_21" [label="!:21" nodeName="!_21" class=operator shape="square" color=black fillcolor=white style=filled];
+}

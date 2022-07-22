@@ -1,0 +1,17 @@
+(set-logic HORN)
+(set-info :source |
+    Benchmark: C_VC
+    Output by Princess (http://www.philipp.ruemmer.org/princess.shtml)
+|)
+(set-info :status unknown)
+(declare-fun f_s1 (Int) Bool)
+(declare-fun f_s3 (Int Int) Bool)
+(declare-fun f_sf (Int Int) Bool)
+(assert (forall ((var0 Int) (var1 Int) (var2 Int)) (or (not (and (f_s1 var2) (and (and (not (<= 0 (+ 100 (* (- 1) var2)))) (= var1 (+ (- 10) var2))) (= var0 var2)))) (f_sf var2 var1))))
+(assert (forall ((var0 Int) (var1 Int) (var2 Int)) (or (not (and (and (f_s1 var2) (f_sf (+ var2 11) var1)) (and (<= 0 (+ 100 (* (- 1) var2))) (= var0 var2)))) (f_s3 var2 var1))))
+(assert (forall ((var0 Int) (var1 Int) (var2 Int) (var3 Int)) (or (not (and (f_s1 (+ var3 (- 11))) (and (and (<= 0 (+ 100 (* (- 1) (+ var3 (- 11))))) (= var2 var1)) (= var0 var3)))) (f_s1 var0))))
+(assert (forall ((var0 Int) (var1 Int) (var2 Int) (var3 Int)) (or (not (and (and (f_s3 var3 var2) (f_sf var2 var1)) (= var0 var3))) (f_sf var3 var1))))
+(assert (forall ((var0 Int) (var1 Int) (var2 Int) (var3 Int) (var4 Int)) (or (not (and (f_s3 var4 var3) (and (= var2 var1) (= var0 var3)))) (f_s1 var0))))
+(assert (forall ((var0 Int) (var1 Int) (var2 Int) (var3 Int)) (or (not (and (and (<= 0 (+ 100 (* (- 1) var3))) (= var2 var1)) (= var0 var3))) (f_s1 var0))))
+(assert (forall ((var0 Int) (var1 Int)) (not (and (f_sf var1 var0) (and (not (= var0 91)) (<= 0 (+ 100 (* (- 1) var1))))))))
+(check-sat)

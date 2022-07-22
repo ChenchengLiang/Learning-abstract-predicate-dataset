@@ -1,0 +1,248 @@
+digraph dag { 
+"predicateArgument0" -> "CONTROLN_0" [label="arg"]
+"CFHE_0" [label="guarded CFHE Clause 0" nodeName="CFHE_0" class=controlFlowHyperEdge shape="diamond"];
+"predicateArgument1" -> "CONTROLN_1" [label="arg"]
+"DFHE_0" [label="guarded DFHE Clause 0" nodeName="DFHE_0" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_7" [label="guard"]
+"CONTROLN_1" -> "CFHE_0" [label="CFHE"]
+"guard_7" -> "CFHE_0" [label="CFHE"]
+"CFHE_0" -> "CONTROLN_0" [label="CFHE"]
+"predicateArgument1" -> "DFHE_0" [label="DFHE"]
+"guard_7" -> "DFHE_0" [label="DFHE"]
+"DFHE_0" -> "predicateArgument0" [label="DFHE"]
+"predicateArgument2" -> "CONTROLN_2" [label="arg"]
+"predicateArgument3" -> "CONTROLN_2" [label="arg"]
+"CFHE_1" [label="guarded CFHE Clause 1" nodeName="CFHE_1" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_1" [label="guarded DFHE Clause 1" nodeName="DFHE_1" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_2" [label="guarded DFHE Clause 1" nodeName="DFHE_2" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_12" [label="guard"]
+"CONTROLN_1" -> "CFHE_1" [label="CFHE"]
+"guard_12" -> "CFHE_1" [label="CFHE"]
+"CFHE_1" -> "CONTROLN_2" [label="CFHE"]
+"predicateArgument1" -> "DFHE_1" [label="DFHE"]
+"guard_12" -> "DFHE_1" [label="DFHE"]
+"DFHE_1" -> "predicateArgument2" [label="DFHE"]
+"0_11" -> "DFHE_2" [label="DFHE"]
+"guard_12" -> "DFHE_2" [label="DFHE"]
+"DFHE_2" -> "predicateArgument3" [label="DFHE"]
+"CFHE_2" [label="guarded CFHE Clause 2" nodeName="CFHE_2" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_3" [label="guarded DFHE Clause 2" nodeName="DFHE_3" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_13" [label="guard"]
+"CONTROLN_0" -> "CFHE_2" [label="CFHE"]
+"guard_13" -> "CFHE_2" [label="CFHE"]
+"CFHE_2" -> "CONTROLN_1" [label="CFHE"]
+"predicateArgument0" -> "DFHE_3" [label="DFHE"]
+"guard_13" -> "DFHE_3" [label="DFHE"]
+"DFHE_3" -> "predicateArgument1" [label="DFHE"]
+"predicateArgument4" -> "CONTROLN_3" [label="arg"]
+"predicateArgument5" -> "CONTROLN_3" [label="arg"]
+"CFHE_3" [label="guarded CFHE Clause 3" nodeName="CFHE_3" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_4" [label="guarded DFHE Clause 3" nodeName="DFHE_4" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_5" [label="guarded DFHE Clause 3" nodeName="DFHE_5" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_17" [label="guard"]
+"CONTROLN_0" -> "CFHE_3" [label="CFHE"]
+"guard_17" -> "CFHE_3" [label="CFHE"]
+"CFHE_3" -> "CONTROLN_3" [label="CFHE"]
+"predicateArgument0" -> "DFHE_4" [label="DFHE"]
+"guard_17" -> "DFHE_4" [label="DFHE"]
+"DFHE_4" -> "predicateArgument4" [label="DFHE"]
+"0_11" -> "DFHE_5" [label="DFHE"]
+"guard_17" -> "DFHE_5" [label="DFHE"]
+"DFHE_5" -> "predicateArgument5" [label="DFHE"]
+"CFHE_4" [label="guarded CFHE Clause 4" nodeName="CFHE_4" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_6" [label="guarded DFHE Clause 4" nodeName="DFHE_6" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_18" [label="guard"]
+"CONTROLN_2" -> "CFHE_4" [label="CFHE"]
+"guard_18" -> "CFHE_4" [label="CFHE"]
+"CFHE_4" -> "CONTROLN_1" [label="CFHE"]
+"predicateArgument2" -> "DFHE_6" [label="DFHE"]
+"guard_18" -> "DFHE_6" [label="DFHE"]
+"DFHE_6" -> "predicateArgument1" [label="DFHE"]
+"CFHE_5" [label="guarded CFHE Clause 5" nodeName="CFHE_5" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_7" [label="guarded DFHE Clause 5" nodeName="DFHE_7" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_8" [label="guarded DFHE Clause 5" nodeName="DFHE_8" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_19" [label="guard"]
+"CONTROLN_2" -> "CFHE_5" [label="CFHE"]
+"guard_19" -> "CFHE_5" [label="CFHE"]
+"CFHE_5" -> "CONTROLN_3" [label="CFHE"]
+"predicateArgument2" -> "DFHE_7" [label="DFHE"]
+"guard_19" -> "DFHE_7" [label="DFHE"]
+"DFHE_7" -> "predicateArgument4" [label="DFHE"]
+"predicateArgument3" -> "DFHE_8" [label="DFHE"]
+"guard_19" -> "DFHE_8" [label="DFHE"]
+"DFHE_8" -> "predicateArgument5" [label="DFHE"]
+"CFHE_6" [label="guarded CFHE Clause 6" nodeName="CFHE_6" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_9" [label="guarded DFHE Clause 6" nodeName="DFHE_9" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_20" [label="guard"]
+"CONTROLN_3" -> "CFHE_6" [label="CFHE"]
+"guard_20" -> "CFHE_6" [label="CFHE"]
+"CFHE_6" -> "CONTROLN_0" [label="CFHE"]
+"predicateArgument4" -> "DFHE_9" [label="DFHE"]
+"guard_20" -> "DFHE_9" [label="DFHE"]
+"DFHE_9" -> "predicateArgument0" [label="DFHE"]
+"CFHE_7" [label="guarded CFHE Clause 7" nodeName="CFHE_7" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_10" [label="guarded DFHE Clause 7" nodeName="DFHE_10" class=dataFlowHyperEdge shape="diamond"];
+"1_22" -> "+_21" [label="AST_1"]
+"predicateArgument5" -> "+_21" [label="AST_2"]
+"DFHE_11" [label="guarded DFHE Clause 7" nodeName="DFHE_11" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_12" [label="guarded DFHE Clause 7" nodeName="DFHE_12" class=dataFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_23" [label="guard"]
+"CONTROLN_3" -> "CFHE_7" [label="CFHE"]
+"guard_23" -> "CFHE_7" [label="CFHE"]
+"CFHE_7" -> "CONTROLN_2" [label="CFHE"]
+"+_21" -> "DFHE_10" [label="DFHE"]
+"guard_23" -> "DFHE_10" [label="DFHE"]
+"DFHE_10" -> "predicateArgument2" [label="DFHE"]
+"predicateArgument4" -> "DFHE_11" [label="DFHE"]
+"guard_23" -> "DFHE_11" [label="DFHE"]
+"DFHE_11" -> "predicateArgument2" [label="DFHE"]
+"0_11" -> "DFHE_12" [label="DFHE"]
+"guard_23" -> "DFHE_12" [label="DFHE"]
+"DFHE_12" -> "predicateArgument3" [label="DFHE"]
+"CFHE_8" [label="guarded CFHE Clause 8" nodeName="CFHE_8" class=controlFlowHyperEdge shape="diamond"];
+"DFHE_13" [label="guarded DFHE Clause 8" nodeName="DFHE_13" class=dataFlowHyperEdge shape="diamond"];
+"DFHE_14" [label="guarded DFHE Clause 8" nodeName="DFHE_14" class=dataFlowHyperEdge shape="diamond"];
+"1_22" -> "+_24" [label="AST_1"]
+"predicateArgument5" -> "+_24" [label="AST_2"]
+"predicateArgument2" -> "=_25" [label="AST_1"]
+"predicateArgument3" -> "=_25" [label="AST_2"]
+"=_25" -> "!_26" [label="AST_1"]
+"!_26" -> "guard_27" [label="guard"]
+"CONTROLN_3" -> "CFHE_8" [label="CFHE"]
+"guard_27" -> "CFHE_8" [label="CFHE"]
+"CFHE_8" -> "CONTROLN_2" [label="CFHE"]
+"predicateArgument4" -> "DFHE_13" [label="DFHE"]
+"guard_27" -> "DFHE_13" [label="DFHE"]
+"DFHE_13" -> "predicateArgument2" [label="DFHE"]
+"+_24" -> "DFHE_14" [label="DFHE"]
+"guard_27" -> "DFHE_14" [label="DFHE"]
+"DFHE_14" -> "predicateArgument3" [label="DFHE"]
+"CFHE_9" [label="guarded CFHE Clause 9" nodeName="CFHE_9" class=controlFlowHyperEdge shape="diamond"];
+"predicateArgument0" -> ">=_28" [label="AST_1"]
+"2_29" -> ">=_28" [label="AST_2"]
+">=_28" -> "guard_30" [label="guard"]
+"Initial" -> "CFHE_9" [label="CFHE"]
+"guard_30" -> "CFHE_9" [label="CFHE"]
+"CFHE_9" -> "CONTROLN_0" [label="CFHE"]
+"CFHE_10" [label="guarded CFHE Clause 10" nodeName="CFHE_10" class=controlFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_32" [label="guard"]
+"CONTROLN_2" -> "CFHE_10" [label="CFHE"]
+"guard_32" -> "CFHE_10" [label="CFHE"]
+"CFHE_10" -> "CONTROLN_4" [label="CFHE"]
+"CFHE_11" [label="guarded CFHE Clause 11" nodeName="CFHE_11" class=controlFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_33" [label="guard"]
+"CONTROLN_3" -> "CFHE_11" [label="CFHE"]
+"guard_33" -> "CFHE_11" [label="CFHE"]
+"CFHE_11" -> "CONTROLN_4" [label="CFHE"]
+"CFHE_12" [label="guarded CFHE Clause 12" nodeName="CFHE_12" class=controlFlowHyperEdge shape="diamond"];
+"true_6" -> "guard_35" [label="guard"]
+"CONTROLN_4" -> "CFHE_12" [label="CFHE"]
+"guard_35" -> "CFHE_12" [label="CFHE"]
+"CFHE_12" -> "FALSE" [label="CFHE"]
+"CONTROLN_0" -> "CONTROLN_0" [label="t"]
+"CONTROLN_3" -> "CONTROLN_3" [label="t"]
+"CONTROLN_1" -> "CONTROLN_1" [label="t"]
+"CONTROLN_2" -> "CONTROLN_2" [label="t"]
+"predicateArgument0" -> "-_36" [label="AST_1"]
+"predicateArgument5" -> "-_37" [label="AST_2"]
+"predicateArgument4" -> "+_38" [label="AST_1"]
+"-_37" -> "+_38" [label="AST_2"]
+"predicateArgument4" -> "+_39" [label="AST_1"]
+"predicateArgument5" -> "+_39" [label="AST_2"]
+"predicateArgument4" -> "-_40" [label="AST_1"]
+"predicateArgument5" -> "+_41" [label="AST_1"]
+"-_40" -> "+_41" [label="AST_2"]
+"-_40" -> "+_42" [label="AST_1"]
+"-_37" -> "+_42" [label="AST_2"]
+"predicateArgument1" -> "-_43" [label="AST_1"]
+"predicateArgument3" -> "-_44" [label="AST_2"]
+"predicateArgument2" -> "+_45" [label="AST_1"]
+"-_44" -> "+_45" [label="AST_2"]
+"predicateArgument2" -> "+_46" [label="AST_1"]
+"predicateArgument3" -> "+_46" [label="AST_2"]
+"predicateArgument2" -> "-_47" [label="AST_1"]
+"predicateArgument3" -> "+_48" [label="AST_1"]
+"-_47" -> "+_48" [label="AST_2"]
+"-_47" -> "+_49" [label="AST_1"]
+"-_44" -> "+_49" [label="AST_2"]
+"CONTROLN_0" -> "predicateArgument0" [label="EqTerm (tpl)"]
+"CONTROLN_0" -> "predicateArgument0" [label="InEqTerm (tpl)"]
+"CONTROLN_0" -> "-_36" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "predicateArgument4" [label="EqTerm (tpl)"]
+"CONTROLN_3" -> "predicateArgument5" [label="EqTerm (tpl)"]
+"CONTROLN_3" -> "+_38" [label="EqTerm (tpl)"]
+"CONTROLN_3" -> "+_39" [label="EqTerm (tpl)"]
+"CONTROLN_3" -> "predicateArgument4" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "predicateArgument5" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "-_40" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "-_37" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "+_38" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "+_41" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "+_39" [label="InEqTerm (tpl)"]
+"CONTROLN_3" -> "+_42" [label="InEqTerm (tpl)"]
+"CONTROLN_1" -> "predicateArgument1" [label="EqTerm (tpl)"]
+"CONTROLN_1" -> "predicateArgument1" [label="InEqTerm (tpl)"]
+"CONTROLN_1" -> "-_43" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "predicateArgument2" [label="EqTerm (tpl)"]
+"CONTROLN_2" -> "predicateArgument3" [label="EqTerm (tpl)"]
+"CONTROLN_2" -> "+_45" [label="EqTerm (tpl)"]
+"CONTROLN_2" -> "+_46" [label="EqTerm (tpl)"]
+"CONTROLN_2" -> "predicateArgument2" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "predicateArgument3" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "-_47" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "-_44" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "+_45" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "+_48" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "+_46" [label="InEqTerm (tpl)"]
+"CONTROLN_2" -> "+_49" [label="InEqTerm (tpl)"]
+"-_36"[  color=black fillcolor=green style=filled shape=record label="{{-:36|0}|{-:36|0}}"];
+"CONTROLN_2" [label="main_s4:8" nodeName="CONTROLN_2" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"+_41"[  color=black fillcolor=green style=filled shape=record label="{{+:41|0}|{+:41|0}}"];
+"+_45"[  color=black fillcolor=red style=filled shape=record label="{{+:45|2|2}|{+:45|1|1}}"];
+"predicateArgument0"[  color=black fillcolor=green style=filled shape=record label="{{ARG_0:3|0|0}|{ARG_0:3|0|0}}"];
+"-_43"[  color=black fillcolor=green style=filled shape=record label="{{-:43|0}|{-:43|0}}"];
+"+_24" [label="+:24" nodeName="+_24" class=operator shape="square" color=black fillcolor=white style=filled];
+"guard_32" [label="G:32" nodeName="guard_32" class=guard shape="square" color=black fillcolor=white style=filled];
+"predicateArgument3"[  color=black fillcolor=green style=filled shape=record label="{{ARG_1:10|0|0}|{ARG_1:10|0|0}}"];
+"-_47"[  color=black fillcolor=green style=filled shape=record label="{{-:47|0}|{-:47|0}}"];
+"Initial" [label="Initial:1" nodeName="Initial" class=Initial shape="component" color=black fillcolor=white style=filled];
+"CONTROLN_4" [label="CHC_COMP_FALSE:31" nodeName="CONTROLN_4" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"predicateArgument5"[  color=black fillcolor=green style=filled shape=record label="{{ARG_1:16|0|0}|{ARG_1:16|0|0}}"];
+"guard_19" [label="G:19" nodeName="guard_19" class=guard shape="square" color=black fillcolor=white style=filled];
+"true_6" [label="true:6" nodeName="true_6" class=constant shape="circle" color=black fillcolor=white style=filled];
+"+_48"[  color=black fillcolor=green style=filled shape=record label="{{+:48|0}|{+:48|0}}"];
+"+_38"[  color=black fillcolor=red style=filled shape=record label="{{+:38|2|2}|{+:38|1|1}}"];
+"0_11" [label="0:11" nodeName="0_11" class=constant shape="circle" color=black fillcolor=white style=filled];
+"dummy" [label="dummy:0" nodeName="dummy" class=dummy shape="component" color=black fillcolor=white style=filled];
+"guard_12" [label="G:12" nodeName="guard_12" class=guard shape="square" color=black fillcolor=white style=filled];
+"CONTROLN_3" [label="main_s2:14" nodeName="CONTROLN_3" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"guard_33" [label="G:33" nodeName="guard_33" class=guard shape="square" color=black fillcolor=white style=filled];
+"+_49"[  color=black fillcolor=green style=filled shape=record label="{{+:49|0}|{+:49|0}}"];
+"guard_30" [label="G:30" nodeName="guard_30" class=guard shape="square" color=black fillcolor=white style=filled];
+"FALSE" [label="FALSE:34" nodeName="FALSE" class=FALSE shape="component" color=black fillcolor=white style=filled];
+"predicateArgument2"[  color=black fillcolor=green style=filled shape=record label="{{ARG_0:9|0|0}|{ARG_0:9|0|0}}"];
+"guard_27" [label="G:27" nodeName="guard_27" class=guard shape="square" color=black fillcolor=white style=filled];
+"CONTROLN_0" [label="main_s1:2" nodeName="CONTROLN_0" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"guard_18" [label="G:18" nodeName="guard_18" class=guard shape="square" color=black fillcolor=white style=filled];
+"guard_7" [label="G:7" nodeName="guard_7" class=guard shape="square" color=black fillcolor=white style=filled];
+"guard_20" [label="G:20" nodeName="guard_20" class=guard shape="square" color=black fillcolor=white style=filled];
+"guard_13" [label="G:13" nodeName="guard_13" class=guard shape="square" color=black fillcolor=white style=filled];
+"guard_23" [label="G:23" nodeName="guard_23" class=guard shape="square" color=black fillcolor=white style=filled];
+"+_39"[  color=black fillcolor=green style=filled shape=record label="{{+:39|0|0}|{+:39|0|0}}"];
+"-_37"[  color=black fillcolor=green style=filled shape=record label="{{-:37|0}|{-:37|0}}"];
+"predicateArgument1"[  color=black fillcolor=green style=filled shape=record label="{{ARG_0:5|0|0}|{ARG_0:5|0|0}}"];
+"CONTROLN_1" [label="main_s3:4" nodeName="CONTROLN_1" class=CONTROL shape="component" color=black fillcolor=white style=filled];
+"=_25" [label="=:25" nodeName="=_25" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_40"[  color=black fillcolor=green style=filled shape=record label="{{-:40|0}|{-:40|0}}"];
+"+_42"[  color=black fillcolor=green style=filled shape=record label="{{+:42|0}|{+:42|0}}"];
+"+_21" [label="+:21" nodeName="+_21" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_44"[  color=black fillcolor=green style=filled shape=record label="{{-:44|0}|{-:44|0}}"];
+">=_28" [label=">=:28" nodeName=">=_28" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_46"[  color=black fillcolor=green style=filled shape=record label="{{+:46|0|0}|{+:46|0|0}}"];
+"1_22" [label="1:22" nodeName="1_22" class=constant shape="circle" color=black fillcolor=white style=filled];
+"2_29" [label="2:29" nodeName="2_29" class=constant shape="circle" color=black fillcolor=white style=filled];
+"guard_17" [label="G:17" nodeName="guard_17" class=guard shape="square" color=black fillcolor=white style=filled];
+"predicateArgument4"[  color=black fillcolor=green style=filled shape=record label="{{ARG_0:15|0|0}|{ARG_0:15|0|0}}"];
+"guard_35" [label="G:35" nodeName="guard_35" class=guard shape="square" color=black fillcolor=white style=filled];
+"!_26" [label="!:26" nodeName="!_26" class=operator shape="square" color=black fillcolor=white style=filled];
+}

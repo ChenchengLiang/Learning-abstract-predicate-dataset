@@ -1,0 +1,6 @@
+(templates main_s2 ((x0 Int) (x1 Int))
+  (inequality-term (+ x0 (* (- 1) x1)) 1)
+)
+(templates main_s4 ((x0 Int) (x1 Int))
+  (inequality-term (+ x0 (* (- 1) x1)) 1)
+)

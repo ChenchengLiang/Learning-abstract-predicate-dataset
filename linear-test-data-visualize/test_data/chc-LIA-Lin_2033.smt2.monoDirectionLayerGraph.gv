@@ -1,0 +1,419 @@
+digraph dag { 
+"predicate_0" -> "predicateArgument_0" [label="PA"]
+"predicate_0" -> "predicateArgument_1" [label="PA"]
+"predicate_0" -> "predicateArgument_2" [label="PA"]
+"predicate_0" -> "predicateArgument_3" [label="PA"]
+"P35_9" -> "-_8" [label="st"]
+"P22_11" -> "+_10" [label="st"]
+"-_8" -> "+_10" [label="st"]
+"+_10" -> "+_12" [label="st"]
+"P2_13" -> "+_12" [label="st"]
+"+_12" -> "=_14" [label="st"]
+"0_15" -> "=_14" [label="st"]
+"=_14" -> "clause_0" [label="guard"]
+"P34_17" -> "*_16" [label="st"]
+"2_18" -> "*_16" [label="st"]
+"*_16" -> "=_19" [label="st"]
+"P21_20" -> "=_19" [label="st"]
+"=_19" -> "clause_0" [label="guard"]
+"P24_22" -> "=_21" [label="st"]
+"0_15" -> "=_21" [label="st"]
+"=_21" -> "!_23" [label="st"]
+"!_23" -> "clause_0" [label="guard"]
+"P25_25" -> "=_24" [label="st"]
+"0_15" -> "=_24" [label="st"]
+"=_24" -> "!_26" [label="st"]
+"!_26" -> "clause_0" [label="guard"]
+"P16_28" -> "=_27" [label="st"]
+"0_15" -> "=_27" [label="st"]
+"=_27" -> "!_29" [label="st"]
+"!_29" -> "clause_0" [label="guard"]
+"P20_31" -> "=_30" [label="st"]
+"0_15" -> "=_30" [label="st"]
+"=_30" -> "!_32" [label="st"]
+"!_32" -> "clause_0" [label="guard"]
+"P23_34" -> "=_33" [label="st"]
+"0_15" -> "=_33" [label="st"]
+"=_33" -> "!_35" [label="st"]
+"!_35" -> "clause_0" [label="guard"]
+"999999_37" -> ">=_36" [label="st"]
+"P35_9" -> ">=_36" [label="st"]
+">=_36" -> "clause_0" [label="guard"]
+"P2_13" -> "-_38" [label="st"]
+"P35_9" -> "+_39" [label="st"]
+"-_38" -> "+_39" [label="st"]
+"+_39" -> ">=_40" [label="st"]
+"P21_20" -> ">=_40" [label="st"]
+">=_40" -> "clause_0" [label="guard"]
+"+_39" -> ">=_41" [label="st"]
+"3_42" -> ">=_41" [label="st"]
+">=_41" -> "clause_0" [label="guard"]
+"P2_13" -> ">=_43" [label="st"]
+"1_44" -> ">=_43" [label="st"]
+">=_43" -> "clause_0" [label="guard"]
+"P21_20" -> "-_45" [label="st"]
+"P34_17" -> "+_46" [label="st"]
+"-_45" -> "+_46" [label="st"]
+"+_46" -> ">=_47" [label="st"]
+"-999999_48" -> ">=_47" [label="st"]
+">=_47" -> "clause_0" [label="guard"]
+"P34_17" -> ">=_49" [label="st"]
+"1_44" -> ">=_49" [label="st"]
+">=_49" -> "clause_0" [label="guard"]
+"P36_51" -> "=_50" [label="st"]
+"0_15" -> "=_50" [label="st"]
+"=_50" -> "clause_0" [label="guard"]
+"clause_0" -> "clauseHead_0" [label="CH"]
+"predicate_0" -> "clauseHead_0" [label="PI"]
+"clauseHead_0" -> "clauseArgument_0" [label="CA"]
+"predicateArgument_0" -> "clauseArgument_0" [label="AI"]
+"clauseArgument_0" -> "P2_13" [label="data"]
+"clauseHead_0" -> "clauseArgument_1" [label="CA"]
+"predicateArgument_1" -> "clauseArgument_1" [label="AI"]
+"clauseArgument_1" -> "P36_51" [label="data"]
+"clauseHead_0" -> "clauseArgument_2" [label="CA"]
+"predicateArgument_2" -> "clauseArgument_2" [label="AI"]
+"clauseArgument_2" -> "P34_17" [label="data"]
+"clauseHead_0" -> "clauseArgument_3" [label="CA"]
+"predicateArgument_3" -> "clauseArgument_3" [label="AI"]
+"clauseArgument_3" -> "P35_9" [label="data"]
+"P21_59" -> "=_58" [label="st"]
+"0_15" -> "=_58" [label="st"]
+"=_58" -> "!_60" [label="st"]
+"!_60" -> "clause_1" [label="guard"]
+"P18_62" -> "=_61" [label="st"]
+"0_15" -> "=_61" [label="st"]
+"=_61" -> "!_63" [label="st"]
+"!_63" -> "clause_1" [label="guard"]
+"P17_65" -> "-_64" [label="st"]
+"P14_67" -> "+_66" [label="st"]
+"-_64" -> "+_66" [label="st"]
+"+_66" -> ">=_68" [label="st"]
+"1_44" -> ">=_68" [label="st"]
+">=_68" -> "clause_1" [label="guard"]
+"P12_70" -> ">=_69" [label="st"]
+"P8_71" -> ">=_69" [label="st"]
+">=_69" -> "clause_1" [label="guard"]
+"P8_71" -> ">=_72" [label="st"]
+"0_15" -> ">=_72" [label="st"]
+">=_72" -> "clause_1" [label="guard"]
+"0_15" -> "=_73" [label="st"]
+"=_73" -> "clause_1" [label="guard"]
+"clause_1" -> "clauseHead_1" [label="CH"]
+"predicate_0" -> "clauseHead_1" [label="PI"]
+"clauseHead_1" -> "clauseArgument_4" [label="CA"]
+"predicateArgument_0" -> "clauseArgument_4" [label="AI"]
+"clauseArgument_4" -> "P8_71" [label="data"]
+"clauseHead_1" -> "clauseArgument_5" [label="CA"]
+"predicateArgument_1" -> "clauseArgument_5" [label="AI"]
+"clauseArgument_5" -> "P17_65" [label="data"]
+"clauseHead_1" -> "clauseArgument_6" [label="CA"]
+"predicateArgument_2" -> "clauseArgument_6" [label="AI"]
+"clauseArgument_6" -> "P14_67" [label="data"]
+"clauseHead_1" -> "clauseArgument_7" [label="CA"]
+"predicateArgument_3" -> "clauseArgument_7" [label="AI"]
+"clauseArgument_7" -> "P12_70" [label="data"]
+"clauseBody_0" -> "clause_1" [label="CB"]
+"clauseBody_0" -> "predicate_0" [label="PI"]
+"clauseArgument_8" -> "clauseBody_0" [label="CA"]
+"predicateArgument_0" -> "clauseArgument_8" [label="AI"]
+"P8_71" -> "+_81" [label="st"]
+"-2_82" -> "+_81" [label="st"]
+"+_81" -> "clauseArgument_8" [label="data"]
+"clauseArgument_9" -> "clauseBody_0" [label="CA"]
+"predicateArgument_1" -> "clauseArgument_9" [label="AI"]
+"P17_65" -> "+_84" [label="st"]
+"-1_85" -> "+_84" [label="st"]
+"+_84" -> "clauseArgument_9" [label="data"]
+"clauseArgument_10" -> "clauseBody_0" [label="CA"]
+"predicateArgument_2" -> "clauseArgument_10" [label="AI"]
+"P14_67" -> "clauseArgument_10" [label="data"]
+"clauseArgument_11" -> "clauseBody_0" [label="CA"]
+"predicateArgument_3" -> "clauseArgument_11" [label="AI"]
+"P12_70" -> "clauseArgument_11" [label="data"]
+"=_73" -> "!_89" [label="st"]
+"!_89" -> "clause_2" [label="guard"]
+"!_89" -> "clause_2" [label="guard"]
+"!_89" -> "clause_2" [label="guard"]
+"P15_91" -> "+_90" [label="st"]
+"1_44" -> "+_90" [label="st"]
+"+_90" -> "-_92" [label="st"]
+"P14_94" -> "+_93" [label="st"]
+"-_92" -> "+_93" [label="st"]
+"+_93" -> ">=_95" [label="st"]
+"1_44" -> ">=_95" [label="st"]
+">=_95" -> "clause_2" [label="guard"]
+"P16_97" -> "-_96" [label="st"]
+"P12_99" -> "+_98" [label="st"]
+"-_96" -> "+_98" [label="st"]
+"+_98" -> ">=_100" [label="st"]
+"2_18" -> ">=_100" [label="st"]
+">=_100" -> "clause_2" [label="guard"]
+"-3_102" -> ">=_101" [label="st"]
+"P16_97" -> ">=_101" [label="st"]
+">=_101" -> "clause_2" [label="guard"]
+"=_73" -> "clause_2" [label="guard"]
+"clause_2" -> "clauseHead_2" [label="CH"]
+"predicate_1" -> "clauseHead_2" [label="PI"]
+"clauseBody_1" -> "clause_2" [label="CB"]
+"clauseBody_1" -> "predicate_0" [label="PI"]
+"clauseArgument_12" -> "clauseBody_1" [label="CA"]
+"predicateArgument_0" -> "clauseArgument_12" [label="AI"]
+"P16_97" -> "clauseArgument_12" [label="data"]
+"clauseArgument_13" -> "clauseBody_1" [label="CA"]
+"predicateArgument_1" -> "clauseArgument_13" [label="AI"]
+"P15_91" -> "clauseArgument_13" [label="data"]
+"clauseArgument_14" -> "clauseBody_1" [label="CA"]
+"predicateArgument_2" -> "clauseArgument_14" [label="AI"]
+"P14_94" -> "clauseArgument_14" [label="data"]
+"clauseArgument_15" -> "clauseBody_1" [label="CA"]
+"predicateArgument_3" -> "clauseArgument_15" [label="AI"]
+"P12_99" -> "clauseArgument_15" [label="data"]
+"!_89" -> "clause_3" [label="guard"]
+"!_89" -> "clause_3" [label="guard"]
+"!_89" -> "clause_3" [label="guard"]
+"P12_111" -> "-_110" [label="st"]
+"-_110" -> "+_112" [label="st"]
+"P16_113" -> "+_112" [label="st"]
+"+_112" -> ">=_114" [label="st"]
+"-1_85" -> ">=_114" [label="st"]
+">=_114" -> "clause_3" [label="guard"]
+"P13_116" -> "=_115" [label="st"]
+"app2_117" -> "=_115" [label="st"]
+"=_115" -> "clause_3" [label="guard"]
+"app2_117" -> "=_118" [label="st"]
+"=_118" -> "clause_3" [label="guard"]
+"clause_3" -> "clauseHead_3" [label="CH"]
+"predicate_1" -> "clauseHead_3" [label="PI"]
+"clauseBody_2" -> "clause_3" [label="CB"]
+"clauseBody_2" -> "predicate_0" [label="PI"]
+"clauseArgument_16" -> "clauseBody_2" [label="CA"]
+"predicateArgument_0" -> "clauseArgument_16" [label="AI"]
+"P16_113" -> "clauseArgument_16" [label="data"]
+"clauseArgument_17" -> "clauseBody_2" [label="CA"]
+"predicateArgument_1" -> "clauseArgument_17" [label="AI"]
+"P15_123" -> "clauseArgument_17" [label="data"]
+"clauseArgument_18" -> "clauseBody_2" [label="CA"]
+"predicateArgument_2" -> "clauseArgument_18" [label="AI"]
+"P14_125" -> "clauseArgument_18" [label="data"]
+"clauseArgument_19" -> "clauseBody_2" [label="CA"]
+"predicateArgument_3" -> "clauseArgument_19" [label="AI"]
+"P12_111" -> "clauseArgument_19" [label="data"]
+"P2_129" -> "=_128" [label="st"]
+"app3_130" -> "=_128" [label="st"]
+"=_128" -> "clause_4" [label="guard"]
+"app3_130" -> "=_131" [label="st"]
+"=_131" -> "clause_4" [label="guard"]
+"clause_4" -> "clauseHead_4" [label="CH"]
+"FALSE" -> "clauseHead_4" [label="PI"]
+"clauseBody_3" -> "clause_4" [label="CB"]
+"clauseBody_3" -> "predicate_1" [label="PI"]
+"predicateArgument_1" -> "-_134" [label="st"]
+"predicateArgument_0" -> "+_135" [label="st"]
+"-_134" -> "+_135" [label="st"]
+"predicateArgument_0" -> "+_136" [label="st"]
+"predicateArgument_1" -> "+_136" [label="st"]
+"predicateArgument_2" -> "-_137" [label="st"]
+"predicateArgument_0" -> "+_138" [label="st"]
+"-_137" -> "+_138" [label="st"]
+"predicateArgument_0" -> "+_139" [label="st"]
+"predicateArgument_2" -> "+_139" [label="st"]
+"predicateArgument_3" -> "-_140" [label="st"]
+"predicateArgument_0" -> "+_141" [label="st"]
+"-_140" -> "+_141" [label="st"]
+"predicateArgument_0" -> "+_142" [label="st"]
+"predicateArgument_3" -> "+_142" [label="st"]
+"predicateArgument_0" -> "-_143" [label="st"]
+"predicateArgument_1" -> "+_144" [label="st"]
+"-_143" -> "+_144" [label="st"]
+"-_143" -> "+_145" [label="st"]
+"-_134" -> "+_145" [label="st"]
+"predicateArgument_2" -> "+_146" [label="st"]
+"-_143" -> "+_146" [label="st"]
+"-_143" -> "+_147" [label="st"]
+"-_137" -> "+_147" [label="st"]
+"predicateArgument_3" -> "+_148" [label="st"]
+"-_143" -> "+_148" [label="st"]
+"-_143" -> "+_149" [label="st"]
+"-_140" -> "+_149" [label="st"]
+"predicate_0" -> "predicateArgument_0" [label="EqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_1" [label="EqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_2" [label="EqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_3" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_135" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_136" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_138" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_139" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_141" [label="EqTerm (tpl)"]
+"predicate_0" -> "+_142" [label="EqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_0" [label="InEqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_1" [label="InEqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_2" [label="InEqTerm (tpl)"]
+"predicate_0" -> "predicateArgument_3" [label="InEqTerm (tpl)"]
+"predicate_0" -> "-_143" [label="InEqTerm (tpl)"]
+"predicate_0" -> "-_134" [label="InEqTerm (tpl)"]
+"predicate_0" -> "-_137" [label="InEqTerm (tpl)"]
+"predicate_0" -> "-_140" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_135" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_144" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_136" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_145" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_138" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_146" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_139" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_147" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_141" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_148" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_142" [label="InEqTerm (tpl)"]
+"predicate_0" -> "+_149" [label="InEqTerm (tpl)"]
+">=_95" [label=">=:95" nodeName=">=_95" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_0" [label="ARG0:53" nodeName="clauseArgument_0" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseArgument_10" [label="ARG2:86" nodeName="clauseArgument_10" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseHead_3" [label="HEAD:119" nodeName="clauseHead_3" class=clauseHead shape="box" color=black fillcolor=white style=filled];
+"P12_70" [label="P12:70" nodeName="P12_70" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"P12_99" [label="P12:99" nodeName="P12_99" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"!_29" [label="!:29" nodeName="!_29" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicateArgument_3"[  color=black fillcolor=green style=filled shape=record label="{{Arg3:4|0|0}|{Arg3:4|0|0}}"];
+"+_112" [label="+:112" nodeName="+_112" class=operator shape="square" color=black fillcolor=white style=filled];
+">=_114" [label=">=:114" nodeName=">=_114" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_6" [label="ARG2:77" nodeName="clauseArgument_6" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseHead_0" [label="HEAD:52" nodeName="clauseHead_0" class=clauseHead shape="box" color=black fillcolor=white style=filled];
+"clauseArgument_13" [label="ARG1:106" nodeName="clauseArgument_13" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"+_144"[  color=black fillcolor=red style=filled shape=record label="{{+:144|2}|{+:144|0}}"];
+"!_89" [label="!:89" nodeName="!_89" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_3" [label="ARG3:56" nodeName="clauseArgument_3" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clause_2" [label="C2:88" nodeName="clause_2" class=clause shape="box" color=black fillcolor=white style=filled];
+"P15_123" [label="P15:123" nodeName="P15_123" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"predicate_1" [label="main_1_2:5" nodeName="predicate_1" class=predicateName shape="box" color=black fillcolor=white style=filled];
+"clauseBody_2" [label="BODY0:120" nodeName="clauseBody_2" class=clauseBody shape="box" color=black fillcolor=white style=filled];
+"!_63" [label="!:63" nodeName="!_63" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseBody_3" [label="BODY0:133" nodeName="clauseBody_3" class=clauseBody shape="box" color=black fillcolor=white style=filled];
+"-_143"[  color=black fillcolor=green style=filled shape=record label="{{-:143|0}|{-:143|0}}"];
+">=_49" [label=">=:49" nodeName=">=_49" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_21" [label="=:21" nodeName="=_21" class=operator shape="square" color=black fillcolor=white style=filled];
+"app3_130" [label="app3:130" nodeName="app3_130" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"-_8" [label="-:8" nodeName="-_8" class=operator shape="square" color=black fillcolor=white style=filled];
+"P21_20" [label="P21:20" nodeName="P21_20" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"P2_129" [label="P2:129" nodeName="P2_129" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"clauseArgument_5" [label="ARG1:76" nodeName="clauseArgument_5" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"*_16" [label="*:16" nodeName="*_16" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicateArgument_0"[  color=black fillcolor=green style=filled shape=record label="{{Arg0:1|0|0}|{Arg0:1|0|0}}"];
+"clause_1" [label="C1:57" nodeName="clause_1" class=clause shape="box" color=black fillcolor=white style=filled];
+"clauseArgument_1" [label="ARG1:54" nodeName="clauseArgument_1" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+">=_69" [label=">=:69" nodeName=">=_69" class=operator shape="square" color=black fillcolor=white style=filled];
+"P21_59" [label="P21:59" nodeName="P21_59" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+">=_36" [label=">=:36" nodeName=">=_36" class=operator shape="square" color=black fillcolor=white style=filled];
+"P23_34" [label="P23:34" nodeName="P23_34" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"clauseHead_2" [label="HEAD:103" nodeName="clauseHead_2" class=clauseHead shape="box" color=black fillcolor=white style=filled];
+"P14_67" [label="P14:67" nodeName="P14_67" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"=_19" [label="=:19" nodeName="=_19" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_9" [label="ARG1:83" nodeName="clauseArgument_9" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"+_139"[  color=black fillcolor=green style=filled shape=record label="{{+:139|0|0}|{+:139|0|0}}"];
+">=_47" [label=">=:47" nodeName=">=_47" class=operator shape="square" color=black fillcolor=white style=filled];
+"!_23" [label="!:23" nodeName="!_23" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_73" [label="=:73" nodeName="=_73" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_17" [label="ARG1:122" nodeName="clauseArgument_17" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"P12_111" [label="P12:111" nodeName="P12_111" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"P36_51" [label="P36:51" nodeName="P36_51" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"clauseArgument_12" [label="ARG0:105" nodeName="clauseArgument_12" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"P18_62" [label="P18:62" nodeName="P18_62" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"-3_102" [label="-3:102" nodeName="-3_102" class=constant shape="circle" color=black fillcolor=white style=filled];
+"!_60" [label="!:60" nodeName="!_60" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_145"[  color=black fillcolor=green style=filled shape=record label="{{+:145|0}|{+:145|0}}"];
+"P14_125" [label="P14:125" nodeName="P14_125" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+">=_72" [label=">=:72" nodeName=">=_72" class=operator shape="square" color=black fillcolor=white style=filled];
+"clause_0" [label="C0:7" nodeName="clause_0" class=clause shape="box" color=black fillcolor=white style=filled];
+"=_27" [label="=:27" nodeName="=_27" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_16" [label="ARG0:121" nodeName="clauseArgument_16" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"+_141"[  color=black fillcolor=green style=filled shape=record label="{{+:141|0|0}|{+:141|0|0}}"];
+"P24_22" [label="P24:22" nodeName="P24_22" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"3_42" [label="3:42" nodeName="3_42" class=constant shape="circle" color=black fillcolor=white style=filled];
+"+_66" [label="+:66" nodeName="+_66" class=operator shape="square" color=black fillcolor=white style=filled];
+">=_100" [label=">=:100" nodeName=">=_100" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_12" [label="+:12" nodeName="+_12" class=operator shape="square" color=black fillcolor=white style=filled];
+">=_43" [label=">=:43" nodeName=">=_43" class=operator shape="square" color=black fillcolor=white style=filled];
+"FALSE" [label="FALSE:6" nodeName="FALSE" class=FALSE shape="box" color=black fillcolor=white style=filled];
+"-2_82" [label="-2:82" nodeName="-2_82" class=constant shape="circle" color=black fillcolor=white style=filled];
+">=_40" [label=">=:40" nodeName=">=_40" class=operator shape="square" color=black fillcolor=white style=filled];
+"app2_117" [label="app2:117" nodeName="app2_117" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"clauseArgument_4" [label="ARG0:75" nodeName="clauseArgument_4" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseHead_1" [label="HEAD:74" nodeName="clauseHead_1" class=clauseHead shape="box" color=black fillcolor=white style=filled];
+"P17_65" [label="P17:65" nodeName="P17_65" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"+_135"[  color=black fillcolor=green style=filled shape=record label="{{+:135|0|0}|{+:135|0|0}}"];
+"-_64" [label="-:64" nodeName="-_64" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicate_0" [label="main_1_1:0" nodeName="predicate_0" class=predicateName shape="box" color=black fillcolor=white style=filled];
+">=_68" [label=">=:68" nodeName=">=_68" class=operator shape="square" color=black fillcolor=white style=filled];
+"P22_11" [label="P22:11" nodeName="P22_11" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"!_32" [label="!:32" nodeName="!_32" class=operator shape="square" color=black fillcolor=white style=filled];
+"predicateArgument_1"[  color=black fillcolor=green style=filled shape=record label="{{Arg1:2|0|0}|{Arg1:2|0|0}}"];
+"clauseArgument_11" [label="ARG3:87" nodeName="clauseArgument_11" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseArgument_18" [label="ARG2:124" nodeName="clauseArgument_18" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseArgument_8" [label="ARG0:80" nodeName="clauseArgument_8" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"+_98" [label="+:98" nodeName="+_98" class=operator shape="square" color=black fillcolor=white style=filled];
+"clause_4" [label="C4:127" nodeName="clause_4" class=clause shape="box" color=black fillcolor=white style=filled];
+"P13_116" [label="P13:116" nodeName="P13_116" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"+_149"[  color=black fillcolor=green style=filled shape=record label="{{+:149|0}|{+:149|0}}"];
+"+_138"[  color=black fillcolor=red style=filled shape=record label="{{+:138|2|2}|{+:138|0|0}}"];
+"clauseBody_0" [label="BODY0:79" nodeName="clauseBody_0" class=clauseBody shape="box" color=black fillcolor=white style=filled];
+"+_142"[  color=black fillcolor=green style=filled shape=record label="{{+:142|0|0}|{+:142|0|0}}"];
+"clauseArgument_15" [label="ARG3:108" nodeName="clauseArgument_15" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"-_38" [label="-:38" nodeName="-_38" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_58" [label="=:58" nodeName="=_58" class=operator shape="square" color=black fillcolor=white style=filled];
+"P8_71" [label="P8:71" nodeName="P8_71" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"+_39" [label="+:39" nodeName="+_39" class=operator shape="square" color=black fillcolor=white style=filled];
+"-999999_48" [label="-999999:48" nodeName="-999999_48" class=constant shape="circle" color=black fillcolor=white style=filled];
+"P35_9" [label="P35:9" nodeName="P35_9" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"-1_85" [label="-1:85" nodeName="-1_85" class=constant shape="circle" color=black fillcolor=white style=filled];
+"+_146"[  color=black fillcolor=green style=filled shape=record label="{{+:146|0}|{+:146|0}}"];
+"=_128" [label="=:128" nodeName="=_128" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_19" [label="ARG3:126" nodeName="clauseArgument_19" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"P16_28" [label="P16:28" nodeName="P16_28" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"=_30" [label="=:30" nodeName="=_30" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_93" [label="+:93" nodeName="+_93" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_24" [label="=:24" nodeName="=_24" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_45" [label="-:45" nodeName="-_45" class=operator shape="square" color=black fillcolor=white style=filled];
+">=_101" [label=">=:101" nodeName=">=_101" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_115" [label="=:115" nodeName="=_115" class=operator shape="square" color=black fillcolor=white style=filled];
+"P16_97" [label="P16:97" nodeName="P16_97" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"P20_31" [label="P20:31" nodeName="P20_31" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"=_50" [label="=:50" nodeName="=_50" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_134"[  color=black fillcolor=green style=filled shape=record label="{{-:134|0}|{-:134|0}}"];
+"-_110" [label="-:110" nodeName="-_110" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_84" [label="+:84" nodeName="+_84" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseHead_4" [label="HEAD:132" nodeName="clauseHead_4" class=clauseHead shape="box" color=black fillcolor=white style=filled];
+"+_136"[  color=black fillcolor=green style=filled shape=record label="{{+:136|0|0}|{+:136|0|0}}"];
+"P16_113" [label="P16:113" nodeName="P16_113" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"+_148"[  color=black fillcolor=red style=filled shape=record label="{{+:148|2}|{+:148|0}}"];
+"-_140"[  color=black fillcolor=green style=filled shape=record label="{{-:140|0}|{-:140|0}}"];
+"P14_94" [label="P14:94" nodeName="P14_94" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"=_61" [label="=:61" nodeName="=_61" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_96" [label="-:96" nodeName="-_96" class=operator shape="square" color=black fillcolor=white style=filled];
+"P25_25" [label="P25:25" nodeName="P25_25" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"predicateArgument_2"[  color=black fillcolor=green style=filled shape=record label="{{Arg2:3|0|0}|{Arg2:3|0|0}}"];
+"999999_37" [label="999999:37" nodeName="999999_37" class=constant shape="circle" color=black fillcolor=white style=filled];
+"clause_3" [label="C3:109" nodeName="clause_3" class=clause shape="box" color=black fillcolor=white style=filled];
+"2_18" [label="2:18" nodeName="2_18" class=constant shape="circle" color=black fillcolor=white style=filled];
+"clauseArgument_2" [label="ARG2:55" nodeName="clauseArgument_2" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"clauseArgument_14" [label="ARG2:107" nodeName="clauseArgument_14" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"-_92" [label="-:92" nodeName="-_92" class=operator shape="square" color=black fillcolor=white style=filled];
+"!_35" [label="!:35" nodeName="!_35" class=operator shape="square" color=black fillcolor=white style=filled];
+"clauseArgument_7" [label="ARG3:78" nodeName="clauseArgument_7" class=clauseArgument shape="ellipse" color=black fillcolor=white style=filled];
+"0_15" [label="0:15" nodeName="0_15" class=constant shape="circle" color=black fillcolor=white style=filled];
+"+_46" [label="+:46" nodeName="+_46" class=operator shape="square" color=black fillcolor=white style=filled];
+"1_44" [label="1:44" nodeName="1_44" class=constant shape="circle" color=black fillcolor=white style=filled];
+"=_131" [label="=:131" nodeName="=_131" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_118" [label="=:118" nodeName="=_118" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_81" [label="+:81" nodeName="+_81" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_10" [label="+:10" nodeName="+_10" class=operator shape="square" color=black fillcolor=white style=filled];
+">=_41" [label=">=:41" nodeName=">=_41" class=operator shape="square" color=black fillcolor=white style=filled];
+"=_14" [label="=:14" nodeName="=_14" class=operator shape="square" color=black fillcolor=white style=filled];
+"-_137"[  color=black fillcolor=green style=filled shape=record label="{{-:137|0}|{-:137|0}}"];
+"P2_13" [label="P2:13" nodeName="P2_13" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"clauseBody_1" [label="BODY0:104" nodeName="clauseBody_1" class=clauseBody shape="box" color=black fillcolor=white style=filled];
+"P34_17" [label="P34:17" nodeName="P34_17" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"+_90" [label="+:90" nodeName="+_90" class=operator shape="square" color=black fillcolor=white style=filled];
+"P15_91" [label="P15:91" nodeName="P15_91" class=symbolicConstant shape="circle" color=black fillcolor=white style=filled];
+"=_33" [label="=:33" nodeName="=_33" class=operator shape="square" color=black fillcolor=white style=filled];
+"+_147"[  color=black fillcolor=green style=filled shape=record label="{{+:147|0}|{+:147|0}}"];
+"!_26" [label="!:26" nodeName="!_26" class=operator shape="square" color=black fillcolor=white style=filled];
+}

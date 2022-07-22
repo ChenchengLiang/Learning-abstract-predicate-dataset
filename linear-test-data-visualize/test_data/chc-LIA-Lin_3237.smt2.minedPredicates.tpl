@@ -1,0 +1,5 @@
+(templates main_1_1 ((x0 Int) (x1 Int))
+  (term (+ x1 (* (- 1) x0)) 5)
+  (term x0 100)
+  (term x1 100)
+)
