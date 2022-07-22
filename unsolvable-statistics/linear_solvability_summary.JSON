@@ -1,0 +1,101 @@
+{
+    "Empty": {
+        "solvable_list": [],
+        "solvable_number": 0,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "Labeled": {
+        "solvable_list": [],
+        "solvable_number": 0,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "Mined": {
+        "solvable_list": [],
+        "solvable_number": 0,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "Octagon": {
+        "solvable_list": [],
+        "solvable_number": 0,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "PredictedCDHG": {
+        "solvable_list": [
+            "chc-LIA-Lin_8341.smt2",
+            "chc-LIA-Lin_5777.smt2"
+        ],
+        "solvable_number": 2,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "PredictedCG": {
+        "solvable_list": [
+            "chc-LIA-Lin_5777.smt2"
+        ],
+        "solvable_number": 1,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "Random": {
+        "solvable_list": [
+            "chc-LIA-Lin_8341.smt2",
+            "chc-LIA-Lin_7542.smt2",
+            "chc-LIA-Lin_7623.smt2",
+            "chc-LIA-Lin_0482.smt2"
+        ],
+        "solvable_number": 4,
+        "unique_solvable_list": [
+            "chc-LIA-Lin_7623.smt2"
+        ],
+        "unique_solvable_number": 1
+    },
+    "RelationalEqs": {
+        "solvable_list": [
+            "chc-LIA-Lin_5777.smt2"
+        ],
+        "solvable_number": 1,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "RelationalIneqs": {
+        "solvable_list": [
+            "chc-LIA-Lin_8361.smt2"
+        ],
+        "solvable_number": 1,
+        "unique_solvable_list": [
+            "chc-LIA-Lin_8361.smt2"
+        ],
+        "unique_solvable_number": 1
+    },
+    "Term": {
+        "solvable_list": [],
+        "solvable_number": 0,
+        "unique_solvable_list": [],
+        "unique_solvable_number": 0
+    },
+    "Unlabeled": {
+        "solvable_list": [
+            "chc-LIA-Lin_8341.smt2",
+            "chc-LIA-Lin_7542.smt2",
+            "chc-LIA-Lin_1387.smt2",
+            "chc-LIA-Lin_0783.smt2",
+            "chc-LIA-Lin_7533.smt2",
+            "chc-LIA-Lin_0692.smt2",
+            "chc-LIA-Lin_8325.smt2",
+            "chc-LIA-Lin_0482.smt2"
+        ],
+        "solvable_number": 8,
+        "unique_solvable_list": [
+            "chc-LIA-Lin_1387.smt2",
+            "chc-LIA-Lin_8325.smt2",
+            "chc-LIA-Lin_7533.smt2",
+            "chc-LIA-Lin_0783.smt2",
+            "chc-LIA-Lin_0692.smt2"
+        ],
+        "unique_solvable_number": 5
+    }
+}
