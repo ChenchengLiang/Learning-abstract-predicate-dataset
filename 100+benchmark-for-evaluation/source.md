@@ -1,9 +1,9 @@
-156 linear benchmarks:\
-101 from unsolvable problems with Horn graphs\
-55 from mineable problems (test set)
+109 linear benchmarks:\
+57  sat
+52  unknown
 
 
-148 non-linear benchmarks:\
-47 from unsolvable problems with Horn graphs\
-101 from mineable problems (test set)
+113 sat
+0   unsat
+35  unknown
 
