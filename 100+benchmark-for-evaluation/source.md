@@ -1,5 +1,6 @@
 109 linear benchmarks:\
 57  sat\
+0   unsat\
 52  unknown
 
 
