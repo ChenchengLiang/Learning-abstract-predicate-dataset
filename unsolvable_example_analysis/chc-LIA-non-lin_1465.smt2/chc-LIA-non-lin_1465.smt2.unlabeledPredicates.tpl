@@ -1,0 +1,5 @@
+(templates is_even_q0 ((x0 Int))
+  (term x0 1)
+  (inequality-term x0 1)
+  (inequality-term (* (- 1) x0) 1)
+)
